@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 1.0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Set to Normal if you want Parallax removed */
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('./img/snow.jpg');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('./img/night-lantern.jpg');
+    min-height: 600px;
+}
+
+.pimg3 {
+    background-image: url('./img/road.jpg');
+    min-height: 600px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #333;
+}
+
+/* @media(max-width: 568px) {
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+} */
+
